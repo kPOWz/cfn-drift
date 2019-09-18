@@ -1,0 +1,21 @@
+{
+  "name": "cfn-drift",
+  "version": "0.0.1",
+  "engines": {
+    "node": "12.10.x",
+    "npm": "6.10.x"
+  },
+  "private": true,
+  "scripts": {
+    "start": "node app",
+    "test": "jest"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.528.0",
+    "node-fetch": "^2.6.0"
+  },
+  "devDependencies": {
+    "@specialblend/aws-sdk-mock": "0.0.19",
+    "jest": "^24.9.0"
+  }
+}
